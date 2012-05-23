@@ -18,38 +18,34 @@
 
     <div id="centeredmenu">
         <ul  class="round">
-            <li><%= link_to "Home", '#' %></li>
-            <li><%= link_to "Help", '#' %></li>
+            <li><%= link_to "Home", root_path %></li>
+            <li><%= link_to "Help", help_path %></li>
             <li><%= link_to "Sign in", '#' %></li>
         </ul>
     </div>
 
 
     <div id="leftnav" align="center">
-        <p>
-
-
-          "Crittle"
-        </p>
+        <br><br><br>
+        <b><i>Crittle</i></b>
     </div>
 
     <div id="middleContent" class="round" align="center">
+     <!-- <% logo = image_tag("logo.jpg", :alt => "Crittle", :class => "round") %>
+<%= link_to logo, root_path %>-->
         <%= yield %>
     </div>
 
     <div id="rightnav" align="center">
-       <p>
-
-
-         "Be Crittled"
-       </p>
+       <br><br><br>
+       <b><i>Be Crittled</i></b>
     </div>
 
 
     <div id="footer">
         <ul class=" round">
-            <li><%= link_to "About", '#' %></li>
-            <li><%= link_to "Contact", '#' %></li>
+            <li><%= link_to "About", about_path %></li>
+            <li><%= link_to "Contact", contact_path %></li>
         </ul>
     </div>
 

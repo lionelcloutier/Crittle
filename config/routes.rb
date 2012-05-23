@@ -1,16 +1,8 @@
-#Crittle::Application.routes.draw do
-#  get "pages/home"
-
-#  get "pages/contact"
-
-#  get "pages/about"
-
-#  get "pages/help"
-
-  ActionController::Routing::Routes.draw do |map|
+ActionController::Routing::Routes.draw do |map|
   map.contact '/contact', :controller => 'pages', :action => 'contact'
   map.about '/about', :controller => 'pages', :action => 'about'
   map.help '/help', :controller => 'pages', :action => 'help'
+  map.signup '/signup', :controller => 'users', :action => 'new'
   map.home '/', :controller => 'pages', :action => 'home'
 
   # The priority is based upon order of creation:
