@@ -107,25 +107,25 @@ border-radius: 10px;
 }
 
 #leftnav{
-   height: 500px;
+   height: 600px;
    float: left;
    width:15%;
 
 }
 
 #middleContent {
-   min-height: 500px;
+   min-height: 600px;
    border-left: 1px solid gray;
    border-right: 1px solid gray;
    float:left;
-   width:67%;
+   width:66%;
    margin-top: 1em;
    font-size: 120%;
    padding: 20px;
 }
 
 #rightnav{
-   height: 500px;
+   height: 600px;
    float: left;
    width:15%;
 }
