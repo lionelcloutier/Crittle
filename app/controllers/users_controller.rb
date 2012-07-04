@@ -6,6 +6,7 @@ def show
 end
 
 def new
+   @user = User.new
    @title = "Sign up"
 end
 
