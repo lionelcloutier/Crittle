@@ -118,7 +118,7 @@ border-radius: 10px;
    border-left: 1px solid gray;
    border-right: 1px solid gray;
    float:left;
-   width:66%;
+   width:65%;
    margin-top: 1em;
    font-size: 120%;
    padding: 20px;
@@ -203,4 +203,25 @@ border-radius: 10px;
  #footer ul li a.home-selected:active{
    background:#c0c0c0;
    color:green;
+}
+
+
+/* User show page */
+table.profile {
+width: 100%;
+margin-bottom: 0;
+}
+td.main {
+width: 70%;
+padding: 1em;
+}
+td.sidebar {
+width: 30%;
+padding: 1em;
+vertical-align: top;
+background: #ffc;
+}
+.profile img.gravatar {
+border: 1px solid #999;
+margin-bottom: -15px;
 }
